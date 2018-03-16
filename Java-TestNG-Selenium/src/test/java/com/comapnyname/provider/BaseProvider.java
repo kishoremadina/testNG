@@ -1,7 +1,19 @@
 package com.comapnyname.provider;
 
+import com.comapnyname.provider.dataobject.InternalData;
+
 /**
- * Created by kmadina on 14/03/18.
+ *
  */
 public interface BaseProvider {
+
+    InternalData data = null;
+
+    public void setData(String name, String value);
+
+
+    public InternalData getData();
+
+
+    public void initData();
 }

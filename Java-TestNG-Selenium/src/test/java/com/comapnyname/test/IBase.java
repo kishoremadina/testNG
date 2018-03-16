@@ -1,7 +1,12 @@
 package com.comapnyname.test;
 
-/**
- * Created by Kishore on 14/03/18.
- */
+
+import com.comapnyname.provider.BaseProvider;
+import com.comapnyname.provider.DataProvider1;
+
 public interface IBase {
+
+
+    public BaseProvider getProvider();
+
 }
